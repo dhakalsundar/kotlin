@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0F7E9"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <!-- App Header Text -->
+        <TextView
+            android:id="@+id/headerText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your fries deserve better."
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#FF0000"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Subheader Text -->
+        <TextView
+            android:id="@+id/subHeaderText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Join TomatoBasil now. It's free!"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- First Name Input -->
+        <EditText
+            android:id="@+id/firstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="First Name"
+            android:padding="12dp"
+            android:background="@drawable/input_background"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Last Name Input -->
+        <EditText
+            android:id="@+id/lastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Last Name"
+            android:padding="12dp"
+            android:background="@drawable/input_background"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Email Input -->
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:padding="12dp"
+            android:background="@drawable/input_background"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Password Input -->
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:background="@drawable/input_background"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Sign-Up Button -->
+        <Button
+            android:id="@+id/signUpButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SIGN UP"
+            android:backgroundTint="#FF0000"
+            android:textColor="#FFFFFF"
+            android:padding="12dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</ScrollView>
